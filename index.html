@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Arogya Hospital  
+    <!-- @venkateshblks -->
+  </title>
+  <link rel="icon" href="images/logo2.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+    <center class="cen">
+      <img src="images/logo1.png" alt="logo1" border="0" class="logo">
+      <h3>Arogya Hospital Information Management System
+      </h3>
+    </center>
+    <nav>
+      <ul class="list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="medi.html">Medicine Record </a></li>
+        <li><a href="registration.html">Patient's Registration </a></li>
+        <li><a href="profile.html">Patient's Profile</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="bot.html">Health Bot</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/img1.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000);
+    }
+  </script>
+  <br>
+  <center>
+    <h1>WELCOME TO AROGYA HOSPITAL!</h1>
+  </center>
+  <center>
+    <h3><i class="gre">We Offer Extensive Medical Procedures To Outbound And Inbound Patients.</i></h3>
+  </center>
+  <br><br><br><br>
+  <center>
+    <h2>About Us</h2>
+  </center>
+  <div class="about">
+    <i class="texta">
+      <p>We take great pleasure in introducing Arogya Hospital, Mandideep, which was established in 2002 with all modern
+        facilities and sophisticated medical equipments. Arogya Hospital, Mandideep is functioning with 30 beds our
+        hospital have been awarded the internationally acclaimed ISO 9001:2008 Certification.
+        Arogya Hospital has always stood for its excellent services with good hospitality with all types of facilities
+        which satisfy patient for any kind of treatment under one roof.</p>
+  </div>
+  <div class="about">
+    <p>Being situated in vicinity of the Factory/establishment site at Mandideep, Arogya hospital shall always played
+      crucial role in providing emergent medical services, and prompt medical relief in case of mass causality and very
+      sick patient. Time for transportation is saved. We will be starting full fledged Intensive Care Unit facilities to
+      treat all kinds of emergency cases.
+      Arogya Hospital is accredited by Indian Red Cross Society, St. John Ambulance MP state branch vide IRCS/2012/1216
+      date 4.8.12 for First Aid Training and certification. Arogya Hospital is only recognized hospital in entire Raisen
+      Dist. area authorized by Red Cross Society to conduct First Aid training</p>
+    </i>
+  </div>
+  <div class="cont">
+    <br>
+    <h2 class="pho">Contact Us</h2>
+    <i class="fa fa-map-marker" id="ph"> </i> <i class="ph"> 52nd Street,
+      <br>
+      <span class="spa">New York,</span><br>
+      <span class="spa"> NY 10019,</span><br>
+      <span class="spa"> USA</i></span>
+    <br>
+    <i class="fa fa-envelope" id="ph"> </i> <i class="ph"> example.example.com</i>
+    <br><br>
+    <i class="fa fa-phone" id="ph"> </i> <i class="ph"> 12345-67890</i>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="foot">
+
+  
+    <center>All Rights Reserved by  Hospital @venkateshblks</center>
+  </div>
+</body>
+</html>

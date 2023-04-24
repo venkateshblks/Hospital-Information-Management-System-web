@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Arogya Hospital
+  </title>
+  <link rel="icon" href="images/logo2.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+    <center class="cen">
+      <img src="https://i.ibb.co/bHZqtjz/logo1.png" alt="logo1" border="0" class="logo">
+      <h3>Arogya Hospital Information Management System
+      </h3>
+    </center>
+    <nav>
+      <ul class="list ">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="medi.html">Medicine Record </a></li>
+        <li><a href="registration.html">Patient's Registration </a></li>
+        <li><a href="profile.html">Patient's Profile</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="bot.html">Health Bot</a></li>
+      </ul>
+    </nav>
+  </div>
+  <a href="patient.html" target="_blank"
+    style="width:80%;display:block;text-align:center;padding:.5em;background-color:#0073e2;color:#fff;border-radius:4px;box-shadow:0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);text-decoration:none ;margin: 20px 50px; width:80%">
+    To View full list of patients </a>
+  </head>
+  <body>
+    <center>
+      <h2>Search an entry of patient</h2>
+    </center>
+    <div class="topnav">
+      <div class="search-container">
+        <form action="profile.html">
+          <br>
+          <label><b>Patient ID :</b> </label><br>
+          <input type="number" placeholder="Enter Patient ID">
+          <br><br>
+          <label><b> Patient Name :</b></label><br>
+          <input type="text" placeholder="Enter Patient Name">
+          <br><br>
+          <label><b> Patient City :</b></label><br>
+          <input type="text" placeholder="Enter Patient City">
+          <br><br>
+          <label><b> Patient Age :</b></label><br>
+          <input type="number" placeholder="Enter Patient Age" max="99" min="1" style="width: 96%;"><br><br>
+          <button type="submit"><i class="fa fa-search"></i> Search</button>
+        </form>
+      </div>
+    </div>
+    <center>
+      <h2>Recovery and Delete</h2>
+    </center>
+    <div class="topnav">
+      <div class="search-container">
+        <form action="profile.html">
+          <br>
+          <label><b>Patient ID :</b> </label><br>
+          <input type="number" placeholder="Enter Patient ID" required>
+          <br><br>
+          <button type="submit">Recovery or delete</button>
+        </form>
+      </div>
+    </div>
+    <div class="foot1">
+      <center> All Rights Reserved by Hospital @venkateshblks</center>
+    </div>
+  </body>
+</html>
